@@ -1,0 +1,84 @@
+/*QUESTIONS:
+  1. How do we deal with resizing the page? The image/div background does not move to fit my screen.
+*/
+
+body {
+  background-color: #EE964B;
+}
+
+div {
+  width: 100%;
+}
+
+/* Fossil Free*/
+.container1 {
+  position: relative;
+  object-fit: contain;
+}
+
+.background-img1 {
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+
+h1 {
+  position: absolute;
+  font-size: 12.5vw;
+  /* the vw unit makes the font change size relative to the size of the browser display*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-stretch: extra-expanded;
+  margin: -17.2% 0 0 0;
+  /*margin: top right bottom left*/
+  color: #EE964B;
+  line-height: 2;
+}
+
+/* Orange Divider and links*/
+
+.container2 {
+  position: relative;
+  object-fit: contain;
+
+}
+
+a {
+  padding-top: 20%;
+  font-size: 2.0vw;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: normal;
+  color: #5F5F5F;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  /*NOTE: this is probably what needs to change, if we want any drop-downs or sublinks for the links*/
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.archive {
+  margin-right: 50%;
+}
+
+
+/* Our Mission*/
+.container3 {
+  height: 500px;
+  position: relative;
+  object-fit: contain;
+  background-color: #E7D4C5;
+
+}
