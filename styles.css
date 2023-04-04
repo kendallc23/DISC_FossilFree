@@ -36,16 +36,59 @@ h1 {
   line-height: 2;
 }
 
+.navbar {
+  margin-top: 2.5%;
+  margin-left: -2.5%
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  float: center;
+  margin: 10px;
+  display: inline;
+}
+
+.navbar ul li a {
+  font-family: 'Monserrat', sans-serif;
+  color: #5F5F5F;
+  font-size: 2.0vw;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
 /* Orange Divider and links*/
 
-.container2 {
+/*.container2 {
   position: relative;
   object-fit: contain;
 
+}*/
+
+/*.container2 ul li {
+  float: left;
+  margin: 20px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  padding: 15px;
+  font-size: 2.0vw;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: normal;
+  color: #5F5F5F;
 }
 
-a {
-  padding-top: 20%;
+.buff1 {
+  font-size: 0.9vw;
+  color: #EE964B;
+}*/
+
+/*a {
   font-size: 2.0vw;
   font-family: 'Monserrat', sans-serif;
   font-weight: normal;
@@ -58,10 +101,9 @@ a:link {
 
 a:visited {
   text-decoration: none;
-}
+} 
 
 a:hover {
-  /*NOTE: this is probably what needs to change, if we want any drop-downs or sublinks for the links*/
   text-decoration: underline;
 }
 
@@ -72,7 +114,7 @@ a:active {
 .archive {
   margin-right: 50%;
 }
-
+*/
 
 /* Our Mission*/
 .container3 {
@@ -80,5 +122,18 @@ a:active {
   position: relative;
   object-fit: contain;
   background-color: #E7D4C5;
+
+}
+
+h2 {
+  position: absolute;
+  font-size: 5vw;
+  /* the vw unit makes the font change size relative to the size of the browser display*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 2.5% 0 0 35%;
+  /*margin: top right bottom left*/
+  color: #5F5F5F;
+  line-height: 2;
 
 }
