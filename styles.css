@@ -1,16 +1,4 @@
-.title {
-  position: absolute;
-  font-size: 12.5vw;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-  font-stretch: extra-expanded;
-  margin: -17.2% 0 0 0;
-  color: #EE964B;
-  line-height: 2;
-  text-align: center;
-}
-
-
+/* ################# General -- appears on all or most of the pages ################# */
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 6vw;
@@ -37,31 +25,16 @@ h3 {
 }
 
 body {
-  margin: 0;
+  margin: 0 0 10% 0;
   background-color: #E7D4C5;
 }
 
-.background-img1 {
-  width: 100%;
-  object-fit: contain;
-  position: relative;
-  padding: 0;
-}
-
-/*.lil-dino{
+.lil-dino{
+  float: center;
+  height: 3vw;
   width: auto;
-  height: 10%;
   padding-bottom: 0;
-  margin-bottom: 0;
-}*/
-
-.mission-statement {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5vw;
-  color: #5F5F5F;
-  margin: 3% 3% 3% 3%;
-  text-align: center;
-  
+  margin-bottom: 10px;
 }
 
 p {
@@ -70,56 +43,10 @@ p {
   font-size: 1.5vw;
   margin-top: 50px;
   margin-bottom: 50px; 
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
   text-align: center;
   
-}
-
-.int-navbar ul {
-    list-style: none;
-    position: absolute;
-/*     top: 0; */
-    width: 100%;
-    margin-bottom: 30%;
-    margin-top: -1%;
-    margin-left: -10;
-    list-style-type: square;
-    display: flex;
-    /* padding: 30%; */
-    overflow: hidden; 
-    background-color: #EE964B;
-}
-
-/* Style rule set for individual li */
-.int-navbar ul li {
-    float: center;
-    margin: 20px;
-    display: block;
-    text-decoration: none;
-    color: #5F5F5F;
-    text-align: right;
-    /*padding: 15px;*/
-    font-family: 'Montserrat', sans-serif;
-    font-style: bold;
-    
-}
-
-/* Style rule set for individual li link */
-.int-navbar ul li a {
-/*     font-family: Arial; */
-    color: #5F5F5F;
-    font-size: 1.5vw;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.int-navbar ul li a:hover {
-/*     font-family: Arial; */
-    color: #5F5F5F;
-    font-size: 1.5vw;
-    text-decoration: underline;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /********/
@@ -160,8 +87,13 @@ p {
     text-decoration: underline;
     font-family: 'Montserrat', sans-serif;
 }
-
-
+.reg-navbar ul li a, a:visited {
+/*     font-family: Arial; */
+    color: #5F5F5F;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
 
 ul {
   font-family: 'Montserrat', sans-serif;
@@ -180,13 +112,280 @@ ul li {
   margin-left: 50px;
   margin-right: 50px;
   text-align: left;
-  background-color: #EEB88B;
+/*   background-color: #EEB88B; */
 /*   padding: 8px; */
 /*   list-style-type: square; */
 /*   width: 30px;
   border: 15px solid green;
   padding: 50px;
   margin: 20px; */
-  
+   
+}
+
+
+/* ################# Home Page ################# */
+.title {
+  position: absolute;
+  font-size: 12.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-stretch: extra-expanded;
+  margin: -17.2% 0 0 0;
+  color: #EE964B;
+  line-height: 2;
+  text-align: center;
+}
+
+
+.background-img1 {
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+/*   padding: 0; */
+}
+
+.mission-statement {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  color: #5F5F5F;
+  margin: 3% 200px 3% 200px;
+  text-align: center;
   
 }
+
+
+.int-navbar ul {
+    list-style: none;
+    position: absolute;
+/*     top: 0; */
+    width: 97.22%;
+    margin-bottom: 30%;
+    margin-top: -1%;
+    margin-left: -10;
+    list-style-type: square;
+    display: flex;
+    /* padding: 30%; */
+    overflow: hidden; 
+    background-color: #EE964B;
+}
+
+/* Style rule set for individual li */
+.int-navbar ul li {
+    float: center;
+    margin: 20px;
+    display: block;
+    text-decoration: none;
+    color: #5F5F5F;
+    text-align: right;
+    /*padding: 15px;*/
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    
+}
+
+/* Style rule set for individual li link */
+.int-navbar ul li a, a:visited {
+/*     font-family: Arial; */
+    color: #5F5F5F;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.int-navbar ul li a:hover {
+/*     font-family: Arial; */
+    color: #5F5F5F;
+    font-size: 1.5vw;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ################# About Page ################# */
+
+.group_img{
+  margin-top: 40px;
+  margin-bottom: 20px; 
+  margin-left: 210px;
+  margin-right: 200px;
+  width: 70%;
+  height: auto;
+  
+}
+
+/* ################# Events Page ################# */
+
+.event-slides{
+  margin: 0 0 0 18%;
+}
+
+/* ################# Get Involved Page ################# */
+
+/*.left-side{
+  background-color: #EEB88B;
+  margin: 0 60% 10% 10%;
+  
+}
+.right-side{
+  background-color: #EEB88B;
+  margin: 0 10% 10% 60%;
+  
+}*/
+
+.join-us{
+  margin: 0, 200px, 0 200px;
+}
+
+.sub-heading{
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.social-media ul li {
+    float: left;
+}
+
+.social-media ul li a {
+  display: inline-block;
+} 
+
+/* ################# Dropdowns (about, archive, projects) ################# */
+/* Dropdown Content (Hidden by Default) */
+/* .dropdown1-content {
+  display: none;
+  /* position: absolute; */
+  /* background-color: #f1f1f1;
+  min-width: 50px;
+  box-shadow: 0px px 0px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */
+  /* margin-left: 50px;
+   
+}
+ */
+/* Links inside the dropdown */
+/* .dropdown1-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+
+/* Change color of dropdown links on hover */
+/* .dropdown1-content a:hover {background-color: #ddd;} */
+
+/* Show the dropdown menu on hover */
+/* .dropdown1:hover .dropdown-content {display: block;} */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown1:hover .dropbtn {background-color: #EE964B;} */
+
+/* Dropdown Button */
+/* .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown1 {
+  /* position: relative; */
+  /* display: inline-block;
+  margin-left: 50%;
+} */
+
+
+/* .dropdown2-content {
+  display: none;
+  /* position: absolute; */
+  /* background-color: #f1f1f1;
+  min-width: 50px;
+  box-shadow: 0px px 0px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */ 
+  /* margin-left: 50px;
+   
+} */
+
+/* Links inside the dropdown */
+/* .dropdown2-content a {
+  color: black;
+  padding: 24px 24px;
+  text-decoration: none;
+  display: block;
+} */
+
+/* Change color of dropdown links on hover */
+/* .dropdown2-content a:hover {background-color: #ddd;} */
+
+/* Show the dropdown menu on hover */
+/* .dropdown2:hover .dropdown-content {display: block;} */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown2:hover .dropbtn {background-color: #EE964B;} */
+
+/* Dropdown Button */
+/* .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown2 {
+  /* position: relative; */
+  /* display: inline-block;
+  margin-left: 50%;
+} */
+
+/* .dropdown3-content {
+  display: none;
+  /* position: absolute; */
+  /* background-color: #f1f1f1;
+  min-width: 50px;
+  box-shadow: 0px px 0px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */
+  /* margin-left: 50px;
+} 
+
+/* Links inside the dropdown */
+/* .dropdown3-content a {
+  color: black;
+  padding: 24px 24px;
+  text-decoration: none;
+  display: block;
+} */
+
+/* Change color of dropdown links on hover */
+/* .dropdown3-content a:hover {background-color: #ddd;} */
+
+/* Show the dropdown menu on hover */
+/* .dropdown3:hover .dropdown-content {display: block;} */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown3:hover .dropbtn {background-color: #EE964B;} */
+
+/* Dropdown Button */
+/* .dropbtn3 {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+ */
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown3 {
+  /* position: relative; */
+  /* display: inline-block;
+  margin-left: 50%;
+} */
+
